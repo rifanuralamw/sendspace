@@ -1,6 +1,5 @@
 # sendspace
 Sendspace Account Checker CLI version
-
 ----
 
 ### Features
