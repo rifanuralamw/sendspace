@@ -5,7 +5,6 @@ error_reporting(1);
 ob_implicit_flush(true);
 ini_set('display_errors', 0);
 
-
 echo "============================================\n";
 echo "           SandSpace Account Checker "; 
 echo "\n============================================\n";
@@ -13,7 +12,6 @@ echo "Created by : \033[92mrifanuralamw\033[0m \033[0m\nCredit     : @2020\n";
 echo "============================================\n";
 echo "Delim \t\t: ";
 $delim = trim(fgets(STDIN));
-$time_start = microtime_float();
 echo "List \t\t: ";
 $list = trim(fgets(STDIN));
 
