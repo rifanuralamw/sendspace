@@ -4,20 +4,6 @@ date_default_timezone_set('Asia/Jakarta');
 error_reporting(1);
 ob_implicit_flush(true);
 ini_set('display_errors', 0);
-function microtime_float()
-{
-    list($usec, $sec) = explode(" ", microtime());
-    return ((float)$usec + (float)$sec);
-}
-
-
-function in_string($s,$as) {
-	$s=strtoupper($s);
-	if(!is_array($as)) $as=array($as);
-	for($i=0;$i<count($as);$i++) if(strpos(($s),strtoupper($as[$i]))!==false) return true;
-	return false;
-}
-
 
 
 echo "============================================\n";
